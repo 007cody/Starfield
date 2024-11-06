@@ -6,7 +6,7 @@ void setup() {
   for (int i=0; i<bob.length; i++) {
     bob[i] = new confetti();
   }
-  for (int i =0; i<10; i++) {
+  for (int i=0; i<10; i++) {
     bob[i] = new stars();
   }
   img = loadImage("yippeee.png");
@@ -35,7 +35,7 @@ class stars extends confetti {
     myX = width/2;
     myY = height/2;
     myAngle = (float)(Math.random()*2*PI);
-    mySpeed = (float)(Math.random()*10+2);
+    mySpeed = (float)(Math.random()*5+7);
     myColor = color((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1);
   }
   void show() {
