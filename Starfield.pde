@@ -35,7 +35,7 @@ class stars extends confetti {
     myX = width/2;
     myY = height/2;
     myAngle = (float)(Math.random()*2*PI);
-    mySpeed = (float)(Math.random()*7+2);
+    mySpeed = (float)(Math.random()*10+2);
     myColor = color((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1);
   }
   void show() {
